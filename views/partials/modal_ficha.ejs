@@ -1,0 +1,44 @@
+<div id="fichaModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">×</span>
+        <h2 id="modalTitle">Adicionar Nova Ficha</h2>
+        <form id="fichaForm">
+            <input type="hidden" id="fichaId" name="id">
+            
+            <div class="form-group">
+                <label for="referencia">Referência</label>
+                <input type="text" id="referencia" name="referencia" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="cliente">Cliente</label>
+                <input type="text" id="cliente" name="cliente" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descricao">Descrição do Projeto</label>
+                <textarea id="descricao" name="descricao"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="imagem">Imagem do Produto</label>
+                <input type="text" id="imagem" name="imagem" placeholder="Ex: image1.jpg">
+                <small>Nome do arquivo da imagem (deve estar na pasta /images/)</small>
+            </div>
+
+            <fieldset>
+                <legend>Componentes</legend>
+                <div id="componentes-container">
+                    <!-- Componentes serão adicionados aqui via JS -->
+                </div>
+                <button type="button" id="addComponenteBtn" class="btn btn-sm">Adicionar Componente</button>
+            </fieldset>
+
+            <!-- Outros campos podem ser adicionados da mesma forma -->
+
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </div>
+</div>

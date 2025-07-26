@@ -1,0 +1,36 @@
+<%- include('partials/header') %>
+
+<header>
+    <h1>Fichas de Desenvolvimento</h1>
+    <div class="actions">
+        <input type="text" id="searchInput" placeholder="Buscar por referência, cliente ou descrição...">
+        <button class="btn btn-primary" id="addRecordBtn">Adicionar Nova Ficha</button>
+    </div>
+</header>
+
+<main id="card-container">
+    <% fichas.forEach(ficha => { %>
+        <div class="card" data-id="<%= ficha.id %>">
+            <% if (ficha.imagem) { %>
+                <div class="card-image">
+                    <img src="/images/<%= ficha.imagem %>" alt="<%= ficha.descricao %>" onerror="this.style.display='none'">
+                </div>
+            <% } %>
+            <div class="card-header">
+                <h3>Ref: <%= ficha.referencia %></h3>
+                <small><%= ficha.data %></small>
+            </div>
+            <div class="card-body">
+                <p><strong>Cliente:</strong> <%= ficha.cliente %></p>
+                <p><strong>Descrição:</strong> <%= ficha.descricao %></p>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-secondary btn-edit">Editar</button>
+                <button class="btn btn-danger btn-delete">Excluir</button>
+            </div>
+        </div>
+    <% }); %>
+</main>
+
+<%- include('partials/modal_ficha') %>
+<%- include('partials/footer') %>

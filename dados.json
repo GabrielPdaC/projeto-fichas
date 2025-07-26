@@ -1,0 +1,466 @@
+[
+  {
+    "id": 1,
+    "referencia": "SLD-001",
+    "cliente": "Calçados Andar Bem",
+    "descricao": "Solado tratorado para bota coturno feminina",
+    "data": "2025-07-15",
+    "material": "Flexível",
+    "imagem": "image1.jpg",
+    "componentes": [
+      { "nome": "Contraforte", "obs": "Material E.V.A. de alta densidade" },
+      { "nome": "Vira", "obs": "Costura dupla aparente na cor caramelo" }
+    ],
+    "acabamentos": ["Injetado na Cor"],
+    "aplicacao": ["Costurada"],
+    "injecao": { "tipo": "TR", "pigmento": "Preto Fosco" },
+    "observacoes": "Desenvolver piloto para aprovação de textura."
+  },
+  {
+    "id": 2,
+    "referencia": "ORN-102",
+    "cliente": "Sapatilhas Leveza",
+    "descricao": "Aplique de laço com strass para sapatilha",
+    "data": "2025-07-18",
+    "material": "Rígido",
+    "imagem": "image2.jpg",
+    "componentes": [
+      { "nome": "Strass", "obs": "Cristal, tamanho P" },
+      { "nome": "Resina", "obs": "Base do laço" }
+    ],
+    "acabamentos": ["Metalização Convencional"],
+    "aplicacao": ["Colada"],
+    "injecao": { "tipo": "ABS-Cristal", "pigmento": "Dourado" },
+    "observacoes": "A fixação deve ser resistente."
+  },
+  {
+    "id": 3,
+    "referencia": "CAD-300",
+    "cliente": "Esporte Total",
+    "descricao": "Passador de cadarço para tênis de corrida",
+    "data": "2025-07-20",
+    "material": "Rígido",
+    "imagem": "image3.jpg",
+    "componentes": [
+      { "nome": "Ilhós", "obs": "Metálico, anti-ferrugem" }
+    ],
+    "acabamentos": ["Pintura Automotiva"],
+    "aplicacao": ["Rebite Macho-Fêmea"],
+    "injecao": { "tipo": "PVC", "pigmento": "Cinza Chumbo" },
+    "observacoes": "Verificar compatibilidade com cadarços de 5mm."
+  },
+  {
+    "id": 4,
+    "referencia": "PAL-010",
+    "cliente": "Conforto Max",
+    "descricao": "Palmilha anatômica com logo em relevo",
+    "data": "2025-06-25",
+    "material": "Flexível",
+    "imagem": "image4.jpg",
+    "componentes": [
+      { "nome": "Forro", "obs": "Tecido cacharrel" }
+    ],
+    "acabamentos": ["Tampografia"],
+    "aplicacao": ["Peça embutida no cabedal vazado"],
+    "injecao": { "tipo": "PU", "pigmento": "Bege" },
+    "observacoes": "A densidade do PU é crucial para o conforto."
+  },
+  {
+    "id": 5,
+    "referencia": "BQA-221",
+    "cliente": "Segurança Forte",
+    "descricao": "Biqueira de composite para bota de segurança",
+    "data": "2025-06-30",
+    "material": "Rígido",
+    "imagem": "image5.jpg",
+    "componentes": [
+      { "nome": "Biqueira de Aço", "obs": "Norma ABNT" }
+    ],
+    "acabamentos": [],
+    "aplicacao": ["Costurada"],
+    "injecao": { "tipo": "Composite", "pigmento": "Natural" },
+    "observacoes": "Resistência ao impacto é prioridade máxima."
+  },
+  {
+    "id": 6,
+    "referencia": "CAL-045",
+    "cliente": "Urban Walk",
+    "descricao": "Calcanheira com gel absorvente",
+    "data": "2025-07-05",
+    "material": "Flexível",
+    "imagem": "image6.jpg",
+    "componentes": [
+      { "nome": "Gel de Silicone", "obs": "Alta absorção de impacto" }
+    ],
+    "acabamentos": ["Impressão Digital"],
+    "aplicacao": ["Colada"],
+    "injecao": { "tipo": "Silicone", "pigmento": "Translúcido" },
+    "observacoes": "Testar em tênis de uso prolongado."
+  },
+  {
+    "id": 7,
+    "referencia": "DET-334",
+    "cliente": "Chic Pé",
+    "descricao": "Detalhe decorativo para rasteirinha",
+    "data": "2025-07-02",
+    "material": "Rígido",
+    "imagem": "image7.jpg",
+    "componentes": [
+      { "nome": "Pedraria", "obs": "Formato oval, cor âmbar" }
+    ],
+    "acabamentos": ["Banho de Verniz"],
+    "aplicacao": ["Costurado com linha invisível"],
+    "injecao": { "tipo": "Poliestireno", "pigmento": "Rosa Quartzo" },
+    "observacoes": "Avaliar resistência ao atrito."
+  },
+  {
+    "id": 8,
+    "referencia": "ZPR-982",
+    "cliente": "Adventure Boot",
+    "descricao": "Zíper lateral com trava de segurança",
+    "data": "2025-07-06",
+    "material": "Rígido",
+    "imagem": "image8.jpg",
+    "componentes": [
+      { "nome": "Cursor", "obs": "Trava automática" },
+      { "nome": "Fita Têxtil", "obs": "Cor preta, largura 2cm" }
+    ],
+    "acabamentos": [],
+    "aplicacao": ["Costurada lateral"],
+    "injecao": { "tipo": "Nylon", "pigmento": "Preto" },
+    "observacoes": "Evitar abertura durante caminhada."
+  },
+  {
+    "id": 9,
+    "referencia": "FIV-880",
+    "cliente": "Moda Pés",
+    "descricao": "Fivela decorativa com pintura perolada",
+    "data": "2025-07-10",
+    "material": "Rígido",
+    "imagem": "image9.jpg",
+    "componentes": [
+      { "nome": "Metal Zamac", "obs": "Formato retangular" }
+    ],
+    "acabamentos": ["Pintura Perolada"],
+    "aplicacao": ["Costurada ou colada"],
+    "injecao": { "tipo": "Zamac", "pigmento": "Champanhe" },
+    "observacoes": "Usar em linha premium de sandálias."
+  },
+  {
+    "id": 10,
+    "referencia": "TPR-111",
+    "cliente": "Flex Step",
+    "descricao": "Solado antiderrapante para sandália infantil",
+    "data": "2025-06-20",
+    "material": "Flexível",
+    "imagem": "image10.jpg",
+    "componentes": [
+      { "nome": "Canaletas", "obs": "Desenho zig-zag para tração" }
+    ],
+    "acabamentos": ["Injetado com textura"],
+    "aplicacao": ["Costurada"],
+    "injecao": { "tipo": "TR", "pigmento": "Azul Royal" },
+    "observacoes": "Evitar escorregamento em pisos molhados."
+  },
+  {
+    "id": 11,
+    "referencia": "CLI-563",
+    "cliente": "Casual Way",
+    "descricao": "Clipe traseiro para tênis slip-on",
+    "data": "2025-07-14",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Presilha", "obs": "Sistema de encaixe rápido" }
+    ],
+    "acabamentos": ["Polimento"],
+    "aplicacao": ["Pressão"],
+    "injecao": { "tipo": "ABS", "pigmento": "Branco Brilhante" },
+    "observacoes": "Deve resistir à força de tração."
+  },
+  {
+    "id": 12,
+    "referencia": "GRP-650",
+    "cliente": "Trail Force",
+    "descricao": "Grip lateral para bota de trilha",
+    "data": "2025-07-09",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Textura", "obs": "Geométrica agressiva" }
+    ],
+    "acabamentos": ["Texturização por molde"],
+    "aplicacao": ["Costurada lateral"],
+    "injecao": { "tipo": "TPU", "pigmento": "Verde Musgo" },
+    "observacoes": "Resistência à abrasão em pedras."
+  },
+  {
+    "id": 13,
+    "referencia": "LOG-777",
+    "cliente": "Pé Quente",
+    "descricao": "Etiqueta com logo em alto-relevo",
+    "data": "2025-07-12",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Etiqueta PU", "obs": "3x2cm, borda arredondada" }
+    ],
+    "acabamentos": ["Alto-Relevo"],
+    "aplicacao": ["Colada na lingueta"],
+    "injecao": { "tipo": "PU", "pigmento": "Marrom" },
+    "observacoes": "Garantir boa aderência em superfície curva."
+  },
+  {
+    "id": 14,
+    "referencia": "VEL-333",
+    "cliente": "Baby Shoes",
+    "descricao": "Fechamento em velcro para calçado infantil",
+    "data": "2025-07-08",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Velcro", "obs": "Cor neutra, 15mm largura" }
+    ],
+    "acabamentos": [],
+    "aplicacao": ["Costurado no cabedal"],
+    "injecao": { "tipo": "Nylon", "pigmento": "Cinza Claro" },
+    "observacoes": "Facilitar o calce pelas crianças."
+  },
+  {
+    "id": 15,
+    "referencia": "ENT-101",
+    "cliente": "Casual Max",
+    "descricao": "Entressola com tecnologia de absorção",
+    "data": "2025-07-13",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Espuma expandida", "obs": "Alta memória" }
+    ],
+    "acabamentos": ["Injetado com sulcos"],
+    "aplicacao": ["Costurada na base do cabedal"],
+    "injecao": { "tipo": "EVA Expandido", "pigmento": "Cinza" },
+    "observacoes": "Realizar testes de compressão."
+  },
+  {
+    "id": 16,
+    "referencia": "REC-509",
+    "cliente": "Eco Step",
+    "descricao": "Peça reciclada para reforço de calcanhar",
+    "data": "2025-06-28",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Polímero reciclado", "obs": "Certificação ISO-14021" }
+    ],
+    "acabamentos": ["Textura natural"],
+    "aplicacao": ["Costurada"],
+    "injecao": { "tipo": "PET Reciclado", "pigmento": "Cinza Marmorizado" },
+    "observacoes": "Produto sustentável com apelo ecológico."
+  },
+  {
+    "id": 17,
+    "referencia": "ALM-722",
+    "cliente": "Conforto Max",
+    "descricao": "Almofada interna para calçados sociais",
+    "data": "2025-07-01",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Espuma PU", "obs": "Densidade média" }
+    ],
+    "acabamentos": ["Revestimento em tecido sintético"],
+    "aplicacao": ["Colada"],
+    "injecao": { "tipo": "PU", "pigmento": "Marfim" },
+    "observacoes": "Evitar deformações com o uso contínuo."
+  },
+  {
+    "id": 18,
+    "referencia": "CLA-041",
+    "cliente": "Andar Leve",
+    "descricao": "Claque de metal com trava de segurança",
+    "data": "2025-06-26",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Trava", "obs": "Sistema de pressão reforçada" }
+    ],
+    "acabamentos": ["Galvanoplastia"],
+    "aplicacao": ["Parafusada"],
+    "injecao": { "tipo": "Latão", "pigmento": "Prateado" },
+    "observacoes": "Resistência à oxidação é fundamental."
+  },
+  {
+    "id": 19,
+    "referencia": "TAC-808",
+    "cliente": "Elegance Shoes",
+    "descricao": "Taco de salto feminino com absorção de impacto",
+    "data": "2025-07-11",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "ABS", "obs": "Com núcleo de borracha" }
+    ],
+    "acabamentos": ["Pintura UV"],
+    "aplicacao": ["Parafusado ou encaixado"],
+    "injecao": { "tipo": "ABS", "pigmento": "Preto Brilhante" },
+    "observacoes": "Evitar ruído ao caminhar em pisos duros."
+  },
+  {
+    "id": 20,
+    "referencia": "DEC-667",
+    "cliente": "Fashion Pé",
+    "descricao": "Decoração lateral em acrílico para tênis",
+    "data": "2025-07-03",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Placa Acrílica", "obs": "Formato geométrico moderno" }
+    ],
+    "acabamentos": ["Espelhado"],
+    "aplicacao": ["Colada"],
+    "injecao": { "tipo": "Acrílico", "pigmento": "Rosa Neon" },
+    "observacoes": "A cola deve ser resistente ao calor."
+  },
+  {
+    "id": 21,
+    "referencia": "ILT-999",
+    "cliente": "Sport Way",
+    "descricao": "Ilhós de plástico para cadarço esportivo",
+    "data": "2025-07-17",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Ilhós", "obs": "Plástico ABS com borda reforçada" }
+    ],
+    "acabamentos": ["Brilhante"],
+    "aplicacao": ["Rebitado"],
+    "injecao": { "tipo": "ABS", "pigmento": "Laranja" },
+    "observacoes": "Evitar lascas durante montagem."
+  },
+  {
+    "id": 22,
+    "referencia": "FLE-777",
+    "cliente": "Flex Way",
+    "descricao": "Flex point para maior mobilidade da sola",
+    "data": "2025-07-16",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Canal de Flexão", "obs": "Com desenho em V" }
+    ],
+    "acabamentos": ["Relevo no molde"],
+    "aplicacao": ["Integrado ao solado"],
+    "injecao": { "tipo": "TR", "pigmento": "Preto" },
+    "observacoes": "Melhora performance na corrida."
+  },
+  {
+    "id": 23,
+    "referencia": "BOT-603",
+    "cliente": "Campo Forte",
+    "descricao": "Gancho para bota de trabalho",
+    "data": "2025-06-29",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Gancho metálico", "obs": "Pintura epóxi resistente" }
+    ],
+    "acabamentos": ["Epóxi"],
+    "aplicacao": ["Rebitado"],
+    "injecao": { "tipo": "Ferro Fundido", "pigmento": "Preto Fosco" },
+    "observacoes": "Evitar ferrugem em ambientes úmidos."
+  },
+  {
+    "id": 24,
+    "referencia": "RFI-555",
+    "cliente": "Step Chic",
+    "descricao": "Refletivo para calçado noturno",
+    "data": "2025-07-07",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Fita refletiva", "obs": "Cor prata, 1cm de largura" }
+    ],
+    "acabamentos": ["Tecido refletivo"],
+    "aplicacao": ["Costurada"],
+    "injecao": { "tipo": "TPU", "pigmento": "Transparente" },
+    "observacoes": "Homologar para linha noturna."
+  },
+  {
+    "id": 25,
+    "referencia": "LIN-120",
+    "cliente": "Clássico Pé",
+    "descricao": "Linha decorativa para costura externa",
+    "data": "2025-07-04",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Linha encerada", "obs": "Espessura 0,8mm" }
+    ],
+    "acabamentos": ["Coloração sólida"],
+    "aplicacao": ["Costurada aparente"],
+    "injecao": { "tipo": "Poliéster", "pigmento": "Bordô" },
+    "observacoes": "Deve resistir à lavagem industrial."
+  },
+  {
+    "id": 26,
+    "referencia": "FRT-023",
+    "cliente": "Work Safe",
+    "descricao": "Frontal para reforço de bota",
+    "data": "2025-07-19",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Reforço frontal", "obs": "Com resina estrutural" }
+    ],
+    "acabamentos": ["Acetinado"],
+    "aplicacao": ["Colada e costurada"],
+    "injecao": { "tipo": "Policarbonato", "pigmento": "Grafite" },
+    "observacoes": "Alta resistência à abrasão."
+  },
+  {
+    "id": 27,
+    "referencia": "COR-909",
+    "cliente": "Pé Chic",
+    "descricao": "Cordão decorativo com ponta metálica",
+    "data": "2025-07-05",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Cordão", "obs": "Algodão trançado" },
+      { "nome": "Ponta metálica", "obs": "Cromada" }
+    ],
+    "acabamentos": ["Cromagem"],
+    "aplicacao": ["Amarrado ou fixo"],
+    "injecao": { "tipo": "Latão", "pigmento": "Prateado" },
+    "observacoes": "Usar em sandálias femininas artesanais."
+  },
+  {
+    "id": 28,
+    "referencia": "ESP-880",
+    "cliente": "Esporte Leve",
+    "descricao": "Espuma de calcanhar para amortecimento",
+    "data": "2025-07-13",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Espuma EVA", "obs": "Alta densidade com memória" }
+    ],
+    "acabamentos": ["Lixado fino"],
+    "aplicacao": ["Colada"],
+    "injecao": { "tipo": "EVA", "pigmento": "Preto" },
+    "observacoes": "Ideal para treinos de longa duração."
+  },
+  {
+    "id": 29,
+    "referencia": "TRA-888",
+    "cliente": "TrekkPro",
+    "descricao": "Trava de cadarço para botas de trilha",
+    "data": "2025-07-21",
+    "material": "Rígido",
+    "componentes": [
+      { "nome": "Trava Plástica", "obs": "Sistema de pressão dupla" }
+    ],
+    "acabamentos": ["Textura antiderrapante"],
+    "aplicacao": ["Encaixada"],
+    "injecao": { "tipo": "Poliamida", "pigmento": "Preto Fosco" },
+    "observacoes": "Evitar soltura durante subidas íngremes."
+  },
+  {
+    "id": 30,
+    "referencia": "PRT-321",
+    "cliente": "Design Soft",
+    "descricao": "Parte traseira com apoio para tendão",
+    "data": "2025-07-20",
+    "material": "Flexível",
+    "componentes": [
+      { "nome": "Apoio Anatômico", "obs": "Revestido com espuma memory" }
+    ],
+    "acabamentos": ["Soft Touch"],
+    "aplicacao": ["Costurada ao calcanhar"],
+    "injecao": { "tipo": "PU", "pigmento": "Cinza Claro" },
+    "observacoes": "Evita bolhas durante longas caminhadas."
+  }
+]
